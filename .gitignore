@@ -1,0 +1,5 @@
+__pycache__
+.DS_Store
+.vscode
+rag_app/config.json
+rag_app/data/text_data.pdf
