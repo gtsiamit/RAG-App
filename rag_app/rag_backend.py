@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from typing_extensions import List, TypedDict, Tuple
-from langgraph.graph import START, StateGraph
+from langgraph.graph import StateGraph
 from langchain_core.prompts import PromptTemplate
 from langgraph.checkpoint.memory import MemorySaver
 import textwrap
