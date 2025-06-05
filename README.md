@@ -79,7 +79,7 @@ http://localhost:8501
 ```
 
 #### How It Works
-- Uses OpenAI GPT models for conversational AI and for knowledge retrieval from thr provided context
+- Uses OpenAI GPT models for conversational AI and for knowledge retrieval from the provided context
 - Uses OpenAI embeddings for semantic search over the document
 - Uses FAISS for efficient vector storage and retrieval
 - Uses FAISS Flat index with an L2 distance metric for similarity search
@@ -92,7 +92,6 @@ http://localhost:8501
 
 ## LangSmith Logs Example
 
-Below is an example of a LangSmith trace log for a single LLM response. The trace includes the full conversation history, the input and output of each graph node, token usage, and model call duration.
+Below is an example of LangSmith trace logs. The traces include the full conversation history, the input and output of each graph node, token usage, and model call duration.
 
 ![LangSmith Trace Example](rag_app/media/RAG_Tracing.png)
-
